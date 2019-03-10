@@ -1,0 +1,189 @@
+/*Common Body*/
+body{
+    margin: 0px;
+    background: #efeee7;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    line-height: 1.6;
+}
+
+/*Portfolio only body*/
+#portfolioBody{
+    min-height: 896px;
+    margin-bottom: 100px;
+    clear: both;
+}
+
+/*Contact only body*/
+#contactBody{
+    min-height: 500px;
+    margin-bottom: 100px;
+    clear: both;
+}
+
+/*About only body*/
+#aboutBody{
+    min-height: 510px;
+    margin-bottom: 100px;
+    clear: both;
+}
+
+/*Common Header*/
+header{
+    background: #ffffff;
+    overflow: auto;
+    border-bottom: 3px solid #cccccc;
+}
+
+#headerContent{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+header h1{
+    margin: 0px;
+    float: left;
+    color: white;
+    background: #4aaaa5;
+    padding: 20px;
+}
+
+a{
+    float: right;
+    padding: 0px 10px 0px 10px;
+    color: #777777;
+    margin-top: 5px;
+}
+a:hover{
+    color: #4aaaa5;
+}
+
+/*Common Marin Content*/
+#mainContent{
+    clear: both;
+    width: 954px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffff;
+    margin-top: 30px;
+    border: 3px solid #dddddd
+}
+
+#contentHeader{
+    color: #4aaaa5;
+    padding: 20px;
+    margin: 0px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#pic{
+    padding: 20px 20px 0px 20px;
+    float: left;
+}
+
+#text{
+    padding: 20px;
+}
+
+/*Common hr*/
+
+hr {
+    width: 914px;
+    height: 3px;
+    background-color:#cccccc;
+    border: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+
+/*Common Footer*/
+footer{
+    background: #666666;
+    color: #cccccc;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 440%;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+}
+
+
+/*Contact Specific*/
+form{
+    padding: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.labels{  /*Why does this not work*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#submit{
+    color: white;
+    background: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 130px;
+    height: 30px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#name, #email{
+    padding: 10px;
+    width: 895px;
+  }
+
+#message{
+    padding: 10px;
+    width: 895px;
+    height: 80px;
+  }
+
+  /*Portfolio Specific*/
+#firstRow, #secondRow{
+    position: relative;
+}
+
+#bread, #burger, #city, #hangman, #beach{
+    float: left;
+    padding: 20px;
+}
+
+#portfolioMainContent{
+    clear: both;
+    width: 954px;
+    height: 798px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffff;
+    margin-top: 30px;
+    border: 3px solid #dddddd
+}
+
+#portfolioMainContent h3{
+    position: absolute;
+    text-align: center;
+    width: 240px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+#firstRow h3{
+    top: 130px;
+}
+
+#secondRow h3{
+    top: 365px;
+}
+
+#thirdRow h3{
+    top: 820px;
+}
+
